@@ -15,8 +15,9 @@
     "examples"
   ],
   "scripts": {
-    "test": "node examples/basic.js"
-  },
+    "test": "node examples/basic.js",
+    "start": "serve -s build",
+    "build": "react-scripts build"  },
   "repository": {
     "type": "git",
     "url": "https://github.com/pulviscriptor/agario-client.git"
